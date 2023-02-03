@@ -11,6 +11,7 @@
   --brand-beige: hsl(39, 100%, 97%);
   --brand-light: hsl(148, 23%, 89%);
   --bg-light: hsl(180, 14%, 97%);
+  --brand-dark: hsl(170, 100%, 14%);
   --nav-height: 7.2rem;
   font-size: 62.5%;
 
@@ -38,6 +39,32 @@ body {
   width: 37.5rem;
   margin-inline: auto;
   padding-inline: 2.4rem;
+}
+
+.button {
+  
+  background: var(--primary-color);
+  border: none;
+  border-radius: 0.8rem;
+  margin-bottom: 6rem;
+  padding: 1.6rem 3.2rem;
+  width: fit-content;
+  color: white;
+  text-transform: uppercase;
+  font-size: 1.4rem;
+  font-weight: 700;
+  border-radius: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.6rem;
+
+  text-decoration: none;
+  transition: background 200ms;
+}
+
+.button:hover {
+  background-color: var(--brand-dark);
 }
 
 ul {
@@ -112,29 +139,6 @@ section .content p {
   margin-bottom: 3.2rem;
 }
 
-#home button {
-  
-  background: var(--primary-color);
-  border: none;
-  border-radius: 0.8rem;
-  margin-bottom: 6rem;
-  height: 6.2rem;
-  width: 26.3rem;
-  color: white;
-  text-transform: uppercase;
-  font-size: 1.4rem;
-  font-weight: 700;
-  border-radius: 4rem;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 1.6rem;
-
-  margin-left: auto;
-  margin-right: auto;
-}
-
-
 
 #home img {
   width: 26.4rem;
@@ -143,6 +147,9 @@ section .content p {
   object-position: 0 2rem;
 }
 
+#home .button {
+  margin-inline: auto;
+}
 
 #home .stats {
 
@@ -346,3 +353,26 @@ body.menu-expanded .logo path {
   margin-bottom: 6rem;
 
 }
+
+#contact {
+  text-align: left;
+}
+
+#contact header {
+  margin-bottom: 3.2rem;
+
+}
+
+#contact ul {
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+  margin-bottom: 3.2rem;
+}
+
+#contact ul li {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+}
+
