@@ -7,15 +7,16 @@ function onScroll() {
 }
 
 function showNavOnScroll() {
+  let div = document.querySelector('#navigation')
   if (scrollY > 0) {
-    navigation.classList.add('scroll')
+    div.classList.add('scroll')
   } else {
-    navigation.classList.remove('scroll')
+    div.classList.remove('scroll')
   }
 }
 
 function showBackToTopButtonOnScroll() {
-  if(scrollY > 550) {
+  if(scrollY > 950) {
     backToTopButton.classList.add('show')
   } else {
     backToTopButton.classList.remove('show')
