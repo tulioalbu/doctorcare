@@ -5,7 +5,7 @@
 }
 
 :root {
-  --hue: 170;
+  --hue: 225;
   --primary-color: hsl(var(--hue), 100%, 26%);
   --headline: hsl(210, 11%, 15%);
   --paragraph: hsl(210, 9%, 31%);
@@ -46,7 +46,6 @@ body {
   
   background: var(--primary-color);
   border: none;
-  border-radius: 0.8rem;
   margin-bottom: 6rem;
   padding: 1.6rem 3.2rem;
   width: fit-content;
@@ -479,7 +478,7 @@ footer .social-links {
   .col-b {
     grid-area: B;
   }
-  section padding {
+  section {
     padding-block: 16rem;
   }
 
@@ -561,7 +560,7 @@ footer .social-links {
   
   }
 
-  nav#navigation .menu li a padding{
+  nav#navigation .menu li a {
     transition: opacity .4s;
   }
 
