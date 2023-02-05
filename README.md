@@ -16,3 +16,11 @@ Ele pode ser acessado no seguinte link: [DoctorCare](https://tulioalbu.github.io
 <p float="left">
 <img src="https://tulioalbu.github.io/doctorcare/prints/Print4.png" width = "540">
 
+
+<p float="left">
+<img src="https://tulioalbu.github.io/doctorcare/prints/Print5.png"width = "120" hspace="7">
+<img src="https://tulioalbu.github.io/doctorcare/prints/Print6.png"width = "120" hspace="7">
+<img src="https://tulioalbu.github.io/doctorcare/prints/Print8.png"width = "120" hspace="7">
+<img src="https://tulioalbu.github.io/doctorcare/prints/Print9.png"width = "120" hspace="7">
+
+
